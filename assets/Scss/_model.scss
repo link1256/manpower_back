@@ -1,0 +1,34 @@
+.modal-content {
+    position: relative;
+    background-color: #fff;
+    outline: none;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    span, label {
+      font-weight: 600;
+    }
+  }
+  .modal-header {
+    min-height: 16.428571429px;
+    padding: 15px;
+    border-bottom: 1px solid #00816A;
+    label{
+      color: #00816A;
+      font-size:32px
+    }
+  }
+  .modal-body {
+    position: relative;
+  }.modal-footer {
+    padding: 19px 20px 20px;
+    text-align: right;
+    border-top: 1px solid #00816A;
+  }
+  .modal-footer .btn + .btn {
+    margin-bottom: 0;
+    margin-left: 5px;
+  }
+  
+  
+  

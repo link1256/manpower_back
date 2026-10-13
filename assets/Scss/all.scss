@@ -1,0 +1,63 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import 'summernote/dist/summernote.min.css';
+@import '_mixins.scss';
+@import '_header.scss';
+@import '_leftmenu.scss';
+@import '_table.scss';
+@import '_button.scss';
+@import '_btnIcon.scss';
+@import '_model.scss';
+@import '_inputstyle.scss';
+@import '_layoutcomponents.scss';
+@import '@mdi/font/css/materialdesignicons.css';
+@import 'material-design-icons-iconfont/dist/material-design-icons.css';
+
+html{
+    overflow-y: hidden !important;
+    font-family: 'Microsoft JhengHei', sans-serif !important;
+}
+body{
+    overflow-y: hidden;
+    background: #EBEFE6;
+}
+img{
+    max-width: 100%;
+    height: auto;
+}
+main {
+    height: 100%;
+    overflow-y: auto;
+    background: #EBEFE6;
+}
+footer {
+    background: #ffffff;
+    margin-top: auto;
+    text-align:center;
+}
+.v-dialog:not(.v-dialog--fullscreen) {
+    max-height: 100% !important;
+}
+.AllCenter{
+    @include AllCenter()
+}
+.RightBottom {
+    justify-content: flex-end;
+    align-items: flex-end;
+    display: flex;
+}
+.AllRight {
+    justify-content: flex-end;
+    align-items: center;
+    display: flex;
+}
+.AllLeft {
+    justify-content: flex-start;
+    align-items: center;
+    display: flex;
+}
+.sn-checkbox-use-protocol {
+    display: none !important;
+}
+.row {
+    margin: 0px !important;
+}

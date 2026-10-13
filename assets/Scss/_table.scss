@@ -1,0 +1,80 @@
+.TableStyle table {
+  thead {
+    tr {
+      background: #479FF1;
+    }
+    span {
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      i {
+        color: white;
+      }
+    }
+    i {
+      color: white !important;
+    }
+  }
+}
+.TableStyle2 table {
+  thead {
+    tr {
+      background: #182C44;
+    }
+    span {
+      font-size: 18px;
+      font-weight: bold;
+      color: white;
+      i {
+        color: white;
+      }
+    }
+    i {
+      color: white !important;
+    }
+  }
+}
+.NormalGreenTable{
+  width: 100%;
+  border-spacing: 0px;
+  thead{
+    background: #00816a;
+    th{
+      padding: 10px;
+    }
+    span {
+      font-size: 16px;
+      font-weight: bold;
+      color: white;
+      i {
+        color: white;
+      }
+    }
+  }
+  tbody{
+    tr:hover{
+      background: #eeeeee;
+    }
+    td{
+      padding:5px 0px;
+      span{
+        font-weight: bold;
+      }
+    }
+  }
+}
+.tbodyPadding{
+  tr{
+    td{
+      padding:5px;
+    }
+
+  }
+}
+.NoDataText{
+  text-align: center;
+  span{
+    font-weight: bold;
+    color:red;
+  }
+}

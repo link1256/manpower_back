@@ -1,0 +1,64 @@
+header {
+    background: #344059;
+    min-height: 54px;
+    height: 54px;
+    width: 100%;
+    display: flex !important;
+    z-index: 10;
+    align-items: center;
+    .headerlogo {
+      height: 47px;
+      width: 175px;
+      margin-left: 15px;
+    }
+    .headerlogo2 {
+      height: 47px;
+      width: 30px;
+      margin-left: 10px;
+    }
+    .FunctionItem,
+    .FunctionItemNotHover {
+      margin-left: auto;
+      display: flex;
+      align-items: center;
+      color: white;
+      height: 100%;
+      width: 110px;
+      @include detsktop-top-below(){
+        width:auto;
+      }
+    }
+    .FunctionItem {
+      cursor: pointer;
+    }
+    .FunctionItem span {
+      text-align: center;
+      width: 110px;
+      margin-bottom: auto;
+      margin-top: 15px;
+    }
+    .FunctionItem:hover {
+      border-bottom: 6px solid #ffffff;
+    }
+  }
+  .headerName{
+  display: block;
+  @include detsktop-top-below(){
+    display: none ;
+  }
+  }
+  .headerLogOut{
+    width:80px;
+    margin-left: auto;
+    color: white;
+    height: 100%;
+    @include AllCenter();
+    @include detsktop-top-below(){
+     display: none ;
+    }
+  }
+  .baseheader {
+    width: 100%;
+    background-color: #dae8f4;
+    height: 60px;
+  }

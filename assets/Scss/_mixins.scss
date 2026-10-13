@@ -1,0 +1,61 @@
+@import '../Scss_mixin/_grid.scss';
+@mixin AllCenter {
+  justify-content: center;
+  align-items: center;
+  display: flex
+}
+@mixin BoldText {
+  font-weight: bold;
+}
+@mixin GreenText {
+  color: #00816a;
+}
+@mixin  BaseBtnDefault {
+  left: 0px;
+  top: 0px;
+  background: inherit;
+  -moz-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.2);
+  font-style: normal;
+  text-align: center;
+  font-weight: 600;
+}
+@mixin modalConfirmBtnDefault {
+  @include BaseBtnDefault();
+  background-color: rgba(31, 119, 102, 1);
+  border-width: 0px;
+  border: none;
+  border-radius: 10px;
+  color: #FFFFFF !important;
+}
+@mixin modalCancelBtnDefault {
+   @include BaseBtnDefault();
+    background-color: #e9f4f3;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 10px;
+    color: #1F7766 !important;
+
+}
+@mixin  whiteBtnDefault {
+  @include modalCancelBtnDefault();
+  background-color: white;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 10px;
+  box-sizing: border-box;
+  border-color: rgba(0, 129, 106, 1);
+}
+@mixin  greenBtnDefault {
+  @include BaseBtnDefault();
+  border: 2px solid transparent;
+  background-color: #E7F1D2;
+  border-style: solid;
+  border-radius: 10px;
+  color: #1F7766 !important;
+}
+@mixin  PinkBtnDefault {
+  @include modalConfirmBtnDefault();
+  background-color:#DA7365
+}
